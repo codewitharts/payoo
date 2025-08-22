@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payoo | Login</title>
+  <link rel="shortcut icon" href="./assets/Group.png" type="image/x-icon">
+
+  <!-- Tailwind & Daisy-->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body class="bg-stone-200 h-[100vh] flex flex-col items-center justify-center">
+  <div class="h-[130px] w-[300px] bg-[url(./assets/bg.png)] bg-cover flex flex-col items-center pt-8">
+    <img src="./assets/Group.png" alt="">
+  </div>
+  <form class="bg-white rounded-2xl p-8 w-[350px]">
+    <div>
+      <label for="" class="font-semibold">Mobile Number</label>
+      <br>
+      <input type="text" placeholder="Enter your number" id="mobile-Number" class="input bg-stone-200 mt-3 rounded-3xl">
+    </div>
+    <div class="mt-5">
+      <label for="" class="font-semibold">4 Digit Pin</label>
+      <br>
+      <input type="text" placeholder="Enter 4 Digit Pin" id="pin-Number" class="input bg-stone-200 mt-3 rounded-3xl">
+    </div>
+    <button id="loginBtn" class="btn bg-[#0874f2] text-white mt-10 w-full rounded-3xl">Login</button>
+  </form>
+
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
